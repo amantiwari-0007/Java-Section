@@ -1,0 +1,58 @@
+1. In Java, what expression is used to extract the last digit of a positive integer n?
+A. n / 10
+B. n % 10
+C. n % 100
+D. n - 10------------------------------this is bit advance question 
+
+
+
+
+
+
+------------------------------------DSA QUESTIONS------------------------------------------------------
+
+
+1.Create two integer variables, a = 10 and b = 20. Print their sum ?
+
+2.Create a = 50 and b = 18. Print the result of subtracting b from a.
+
+3.Create price = 25 and quantity = 4. Print the total price.
+
+4.Create total = 100 and people = 5. Print how much each person gets if the amount is divided equally.
+
+5.Create number = 17 and divisor = 5. Print the remainder.
+
+6.A student scores 75 in English, 80 in Maths, and 65 in Science. Store the marks in three integer variables and print the total. 
+
+7.You buy three items costing ₹120, ₹250, and ₹80. Print the total bill. 
+
+8.Store 10, 20, and 30 in three variables. Calculate and print their average using integer arithmetic.
+
+9.Store 12 in an integer variable. Print its square using multiplication.
+
+10.Store 4 in an integer variable. Print its cube using multiplication.
+
+11.You have 29 chocolates and want to distribute them equally among 4 children. Print how many chocolates each child receives and how many remain. 
+
+12.You have 135 minutes. Print the number of complete hours and the remaining minutes.
+
+13.You have a = 10 and b = 20. Exchange their values using a third integer variable, then print both variables.***
+
+14.Store 10, 5, and 2 in variables. Print the result of:***
+ a + b * c
+(a + b) * c
+
+15.Without running the program, predict the output:
+int a = 17;
+int b = 4;
+System.out.println(a / b);
+System.out.println(a % b);
+System.out.println(a + b * 2);
+Write down your predictions, run the code, and compare.
+
+16.Store your first name in one string variable and your city in another. Print both.
+
+17. Calculate the sum of a variable named Sum (int Sum = 20) update the value of Sum to 38 and print their addition.
+
+18.
+
