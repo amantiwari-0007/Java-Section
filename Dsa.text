@@ -54,5 +54,353 @@ Write down your predictions, run the code, and compare.
 
 17. Calculate the sum of a variable named Sum (int Sum = 20) update the value of Sum to 38 and print their addition.
 
-18.
 
+
+
+
+######################### Topic 1 — Arithmetic operators  #########################
+
+Practise the five basic operators.
+A1. Total and difference
+Create two int variables with values 145 and 38. Print their sum and their difference.
+
+A2. Multiplication
+A notebook costs ₹35. Calculate the total cost of 8 notebooks.
+
+A3. Integer division
+Divide 157 by 12 using integer variables. Print the result.
+
+A4. Remainder
+Calculate the remainder when 157 is divided by 12.
+
+
+A5. Shopping calculation
+You buy 3 items costing ₹145 each and 2 items costing ₹85 each. Calculate the total bill in one expression.
+
+A6. Average marks
+Store 78, 83, 91, and 68 in four integer variables. Calculate their average using integer arithmetic.
+
+A7. Time conversion
+Convert 347 minutes into complete hours and remaining minutes using / and %.
+
+A8. Two-digit number
+Store 47 in an integer variable. Extract its tens digit and units digit using division and remainder.
+
+
+A9. Reverse a two-digit number
+Store 68. Use arithmetic operators to calculate the reversed number, 86, without writing 86 directly as the answer.
+
+A10. Three-digit number
+Store 583. Calculate the hundreds, tens, and units digits separately.
+
+A11. Seconds conversion
+Convert 10,537 seconds into complete hours, remaining minutes, and remaining seconds.
+
+A12. Evaluate a combined expression
+Use int variables a = 23, b = 6, and c = 4. Calculate:
+a + b * c - a / b + a % b
+Predict the result first, then run your program.
+
+
+A13. Reverse a three-digit number
+Store 729. Calculate the reversed number 927 using arithmetic operators only.
+
+A14. Digit sum
+Store 846. Extract its three digits and calculate their sum without directly writing 18.
+
+A15. Split a bill
+A bill of ₹2,387 is shared equally among 9 people. Calculate the amount each person pays in whole rupees and the remaining amount.
+
+A16. Expression challenge
+Given a = 29, b = 7, and c = 3, calculate:
+(a + b) * c % b + a / c * b
+Predict the output using Java's integer arithmetic rules, then verify it.
+
+
+
+######################### Topic 2 — Unary operators #########################
+
+U1. Unary minus
+Store 25 in an integer variable. Print its negative using the unary minus operator without changing the original assignment.
+
+U2. Increment
+Store 10 in a. Apply a++ and then print a.
+
+U3. Decrement
+Store 30 in a. Apply a-- and then print a.
+
+U4. Logical NOT
+Store true in a boolean variable. Print its value using !.
+
+
+U5. Prefix increment
+Store 5 in a. Print ++a, then print a again. Record both outputs.
+
+U6. Postfix increment
+Store 5 in a. Print a++, then print a again. Explain the difference between the two outputs.
+
+U7. Prefix decrement
+Store 12 in a. Print --a, followed by a.
+
+U8. Boolean negation
+Create two boolean variables, one true and one false. Print the negation of each.
+
+
+U9. Increment and decrement sequence
+Start with a = 10. Execute a++, ++a, a--, and --a, one statement at a time. Print a after every statement.
+
+U10. Increment inside an expression
+Start with a = 4. Evaluate int result = a++ + 3;. Print result and a.
+
+U11. Prefix inside an expression
+Start with a = 4. Evaluate int result = ++a + 3;. Print result and a. Compare with U10.
+
+U12. Boolean NOT twice
+Store false in a boolean variable. Print !!a. Then explain why the result matches the original value.
+
+
+U13. Trace the sequence
+Start with a = 8. Execute these as separate statements and print the result after each:
+int x = a++;
+int y = ++a;
+int z = a--;
+int w = --a;
+Print a, x, y, z, and w at the end. Predict all five values first.
+
+
+U14. Multiple increments
+Start with a = 3. Evaluate int result = a++ + ++a;. Predict result and the final value of a, then verify.
+
+U15. Unary minus and increment
+Start with a = 7. Evaluate int result = -a++;. Print result and a.
+
+U16. Bitwise complement preview
+If you have learned the unary ~ operator, store 5 in an integer variable and print ~a. Try to explain the result using binary representation. If your class hasn't covered ~ yet, skip this question for now.
+
+
+
+
+
+######################### Topic 3 — Relational operators #########################
+These operators compare two values and produce a boolean: true or false.
+Easy
+R1. Greater than
+Store 45 and 32 in two integer variables. Print whether the first is greater than the second.
+
+R2. Equality
+Store 100 in two separate integer variables. Check whether they are equal using ==.
+
+R3. Not equal
+Compare 17 and 21 using !=.
+
+R4. Less than or equal to
+Compare 50 and 50 using <=. Predict the result.
+
+
+
+R5. Age comparison
+Store ages 19 and 21. Print the results of >, <, ==, and !=.
+
+R6. Boundary check
+Store 100 in an integer variable. Test whether it is both >= 100 and <= 100. Print both results separately.
+
+R7. Compare calculated values
+Store a = 8 and b = 3. Compare a * b with a + b, using >.
+
+R8. Compare remainders
+Store 17 and 23. Check whether their remainders when divided by 5 are equal.
+
+
+R9. Predict six comparisons
+For a = 12 and b = 4, predict the result of:
+a > b, a < b, a >= 12, b <= 3, a != b, a == b.
+Print each result separately.
+
+R10. Comparison of expressions
+Store a = 7, b = 3, and c = 2. Evaluate and print:
+(a + b) > (b * c)
+(a % c) == (b % c)
+
+R11. Equality after arithmetic
+Store a = 15 and b = 4. Compare a / b with 3, and a % b with 3. Explain both results.
+
+R12. Boolean results
+Store a = 10 and b = 10. Save the results of a >= b and a != b in two boolean variables. Print both.
+
+
+
+R13. Comparison chain
+Store a = 5, b = 10, and c = 15. Evaluate these three separate comparisons:
+(a < b), (b < c), (a < c)
+Store each result in a boolean variable. Then compare the boolean results using ==.
+
+R14. Arithmetic inside comparisons
+Store a = 27 and b = 8. Check whether:
+(a / b) * b + (a % b) == a
+
+R15. Find the true comparisons
+Given a = 14, b = 5, and c = 4, predict which expressions evaluate to true:
+- a > b * c
+- a % b == c
+- a / c == b
+- a - b == b + c
+Write code to verify each expression.
+
+R16. Comparison output challenge
+Store a = 9, b = 2, and c = 4. Print the result of:
+(a > b) == (c > b)
+Then print:
+(a < b) == (c > b)
+Explain why the results differ.
+
+
+
+
+
+
+######################### Topic 4 — Bitwise operators #########################
+Bitwise operators work on the individual bits of integer values. For example, decimal 5 is binary 0101, and decimal 3 is binary 0011 when shown using four bits.
+
+For this section, focus on the calculation, not memorizing answers.
+
+B1. Bitwise AND (&)
+Store 5 and 3 in integer variables. Print a & b.
+
+B2. Bitwise OR (|)
+Using the same values, print a | b.
+
+B3. Bitwise XOR (^)
+Store 6 and 3. Print a ^ b.
+
+B4. Left shift (<<)
+Store 4 in an integer variable. Print a << 1. If left shift hasn't been taught yet, leave this one until class covers it.
+
+
+B5. Compare AND and OR
+For a = 10 and b = 12, print a & b and a | b. Explain why the results differ.
+
+B6. XOR with equal values
+Store 7 in both a and b. Print a ^ b.
+
+B7. Complement (~)
+Store 5 in an integer variable. Print ~a. Try to explain the result using Java's signed integer representation.
+
+B8. Right shift (>>)
+Store 20 in an integer variable. Print a >> 2.
+
+
+B9. All three bitwise operators
+For a = 13 and b = 10, print a & b, a | b, and a ^ b. Work out the binary values first.
+
+B10. Multiple shifts
+Store 12 in an integer variable. Print a << 2 and a >> 1.
+
+B11. Bitwise expression
+For a = 6, b = 3, and c = 5, calculate:
+a & b | c
+Predict the result using Java's operator precedence, then run it.
+
+B12. XOR sequence
+Start with a = 9, b = 5, and c = 3. Print:
+a ^ b, b ^ c, and a ^ b ^ c.
+Show the binary working for the last expression.
+
+B13. Mixed bitwise operations
+For a = 12 and b = 10, calculate:
+a ^ b & a | b
+Predict the output using Java's operator precedence. Then verify it.
+
+B14. Complement and AND
+For a = 10 and b = 7, calculate:
+(~a) & b
+Explain why the result is not obtained by treating ~a as a four-bit-only complement.
+
+B15. Shift and mask
+Store a = 45. Calculate:
+(a >> 2) & 7
+Work out each intermediate result.
+
+B16. Signed versus unsigned right shift
+Store a = -16. Print a >> 2 and a >>> 2. Compare the outputs and explain the difference between sign extension and zero filling.
+
+
+Note: Questions B14–B16 are intentionally more advanced. If your teacher has only covered &, |, and ^, complete B1–B3 first and return to the rest as those operators are taught.
+
+
+
+
+######################### Topic 5 — Data types and literals #########################
+This section tests whether you understand the type of a value, which values can be stored in a variable, and what happens when Java converts between types.
+
+Remember:
+- byte, short, int, and long store whole numbers.
+- float and double store floating-point numbers.
+- char stores a single UTF-16 code unit, written using single quotes for character literals.
+- boolean stores true or false.
+
+
+
+D1. Choose the data type
+Identify the most suitable primitive type for each value: 25, true, 4.5, 'A', and 9000000000L.
+
+D2. Declare variables
+Declare one variable each of type byte, short, int, long, float, double, char, and boolean. Give each a valid example value.
+
+D3. Integer literals
+Declare an int variable with value 250 and a long variable with value 5000000000L. Print both.
+
+D4. Floating-point literals
+Declare a float variable with value 3.14f and a double variable with value 3.14. Print both.
+
+
+D5. Primitive ranges
+Identify which primitive integer type is suitable for each value: 100, 30000, 200000, and 5000000000L. Choose the smallest suitable type from byte, short, int, and long.
+
+D6. Find the compilation problem
+Examine these declarations one at a time. Which are valid, and which produce compilation errors? Explain why.
+int a = 10;
+long b = 5000000000L;
+float c = 3.14f;
+float d = 3.14;
+char e = 'A';
+char f = "A";
+
+
+D7. Character arithmetic
+Declare char ch = 'A';. Print ch and then print ch + 1. Observe the difference between the outputs.
+
+D8. Boolean values
+Declare two boolean variables, one true and one false. Print each value and the result of comparing them using == and !=.
+
+
+D9. Type conversion
+Store 25 in an int variable. Assign it to a long variable and print both values. Explain why this assignment is permitted.
+
+D10. Narrowing conversion
+Store 130 in an int variable. Try assigning it to a byte variable. Observe the compilation result. Then investigate how an explicit cast changes the result.
+
+D11. Floating-point calculation
+Declare float a = 5.5f and float b = 2.0f. Print their sum, difference, product, and quotient.
+
+D12. Integer overflow
+Store 127 in a byte variable. Try to calculate a + 1 and assign the result to another byte variable. Does the code compile? If not, investigate why, and test an explicit cast.
+
+
+D13. Find the smallest suitable type
+For each value below, identify the smallest suitable primitive type from byte, short, int, and long:
+-128, 127, 128, 32767, 32768, and 2147483648L.
+Explain the boundaries.
+
+D14. Trace mixed arithmetic
+Examine the following program and predict whether it compiles. If it compiles, predict the output.
+int a = 7;
+double b = 2;
+double c = a / b;
+System.out.println(c);
+Now change b to an int variable with value 2. Predict the new output and explain the difference.
+
+D15. Character and integer types
+Declare char ch = 'A';. Store ch + 2 in an int variable and print it. Then explicitly cast that result back to char and print it. Explain both outputs.
+
+D16. Precision challenge :
+Declare two double variables with values 0.1 and 0.2. Print their sum and compare it with 0.3 using ==. Observe the output and investigate why floating-point calculations may not produce the exact decimal value you expect.
