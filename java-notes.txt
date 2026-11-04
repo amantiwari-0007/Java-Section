@@ -1,0 +1,20 @@
+1. 10 ^ 3 is not \(10^3\) in Java.
+
+The ^ operator means bitwise XOR, not exponentiation. For your digit-reversal exercise, you can use place values directly, or use Math.pow(10, i - 1) with an explicit cast when needed.
+
+2. Preserve your original number.
+
+When counting digits or reversing a number, use a working copy:
+int org = 7298;
+int num = org;
+
+
+Perform repeated division on num, while keeping org available for later comparisons.
+
+3. Your digit-count loop currently assumes a positive number.
+
+A loop whose condition is num > 0 won't count zero as one digit, and it won't process negative numbers. For now, practise with positive integers; we'll handle these edge cases later.
+
+4. Keep your loop counter separate from your digit count.
+
+A for loop's counter is not automatically the digit count. The number of iterations tells you the count only when the loop is designed so each iteration removes exactly one digit.

@@ -1,19 +1,8 @@
-1. In Java, what expression is used to extract the last digit of a positive integer n?
-A. n / 10
-B. n % 10
-C. n % 100
-D. n - 10------------------------------this is bit advance question 
-
-
-
-
-
-
 ------------------------------------DSA QUESTIONS------------------------------------------------------
 
 
 1.Create two integer variables, a = 10 and b = 20. Print their sum ?
-
+ 
 2.Create a = 50 and b = 18. Print the result of subtracting b from a.
 
 3.Create price = 25 and quantity = 4. Print the total price.
@@ -83,7 +72,7 @@ Store 78, 83, 91, and 68 in four integer variables. Calculate their average usin
 A7. Time conversion
 Convert 347 minutes into complete hours and remaining minutes using / and %.
 
-A8. Two-digit number
+A8. Two-digit number ***
 Store 47 in an integer variable. Extract its tens digit and units digit using division and remainder.
 
 
@@ -101,6 +90,7 @@ Use int variables a = 23, b = 6, and c = 4. Calculate:
 a + b * c - a / b + a % b
 Predict the result first, then run your program.
 
+======
 
 A13. Reverse a three-digit number
 Store 729. Calculate the reversed number 927 using arithmetic operators only.
@@ -111,10 +101,43 @@ Store 846. Extract its three digits and calculate their sum without directly wri
 A15. Split a bill
 A bill of ₹2,387 is shared equally among 9 people. Calculate the amount each person pays in whole rupees and the remaining amount.
 
-A16. Expression challenge
+A16. Expression challenge ***
 Given a = 29, b = 7, and c = 3, calculate:
 (a + b) * c % b + a / c * b
 Predict the output using Java's integer arithmetic rules, then verify it.
+
+A17. Store 586 in an integer variable. Print its last digit.
+
+A18. Store 586 and extract its last two digits as the number 86.
+
+A19. Store 583. Calculate its hundreds, tens, and units digits separately and print each digit.
+
+A20. Reverse a three-digit number
+Store 729 and calculate 927 using arithmetic operators.
+
+A21. Digit sum
+Store 5837 and calculate the sum of its digits.
+
+A22. Swap two numbers
+Store a = 15 and b = 28. Swap their values using a third variable and print the final values.
+
+A23. Reverse a four-digit number
+Store 7298 and produce 8927. Try solving it without Math.pow().
+
+A24. First and last digit
+Store 5837. Extract the first digit and last digit, then print their sum.
+
+A25. Remove the last two digits
+Store 58376. Use integer division to obtain 583, without changing the original variable's declaration.
+
+A26. Reverse without losing the original
+Store org = 5837. Calculate the reverse in rev while keeping org unchanged. Use a separate working variable.
+
+A27. Palindrome preparation
+Store 1221. Reverse the number using arithmetic and print both the original and reversed values. Don't use if yet.
+
+A28. Digit extraction challenge
+Store 76429. Extract the second digit from the right and the second digit from the left. Print their product.
 
 
 
@@ -144,7 +167,7 @@ Store 12 in a. Print --a, followed by a.
 
 U8. Boolean negation
 Create two boolean variables, one true and one false. Print the negation of each.
-
+// In programming and logic, negation means flipping a value to its exact opposite.
 
 U9. Increment and decrement sequence
 Start with a = 10. Execute a++, ++a, a--, and --a, one statement at a time. Print a after every statement.
@@ -177,7 +200,38 @@ Start with a = 7. Evaluate int result = -a++;. Print result and a.
 U16. Bitwise complement preview
 If you have learned the unary ~ operator, store 5 in an integer variable and print ~a. Try to explain the result using binary representation. If your class hasn't covered ~ yet, skip this question for now.
 
+U17. Start with a = 10. Increment it once and print the final value.
 
+U18. Start with a = 25. Decrement it twice, then print it.
+
+U19. Start with boolean active = true. Print !active.
+
+U20. Start with a = 5. Print a++, then a.
+
+U21. Start with a = 5. Print ++a, then a.
+
+U22. Start with a = 8. Execute a++, ++a, and a-- as separate statements. Print the value after each.
+
+U23. Start with a = 4. Calculate int result = a++ + 3;. Print both variables.
+
+U24. Start with a = 4. Calculate int result = ++a + 3;. Print both variables.
+
+U25. Start with a = 3. Evaluate int result = a++ + ++a;. Predict the result and final value of a, then verify.
+
+U26. Trace the values
+Start with a = 8. Execute the following as separate statements:
+int x = a++;
+int y = ++a;
+int z = a--;
+int w = --a;
+
+Print a, x, y, z, and w.
+
+U27. Logical negation
+Start with boolean a = false. Print !a, !!a, and !!!a.
+
+U28. Predict before running
+Start with a = 10 and b = 3. Evaluate int result = -a + b++;. Print result, a, and b.
 
 
 
@@ -210,7 +264,6 @@ Store a = 8 and b = 3. Compare a * b with a + b, using >.
 R8. Compare remainders
 Store 17 and 23. Check whether their remainders when divided by 5 are equal.
 
-
 R9. Predict six comparisons
 For a = 12 and b = 4, predict the result of:
 a > b, a < b, a >= 12, b <= 3, a != b, a == b.
@@ -226,8 +279,6 @@ Store a = 15 and b = 4. Compare a / b with 3, and a % b with 3. Explain both res
 
 R12. Boolean results
 Store a = 10 and b = 10. Save the results of a >= b and a != b in two boolean variables. Print both.
-
-
 
 R13. Comparison chain
 Store a = 5, b = 10, and c = 15. Evaluate these three separate comparisons:
@@ -253,8 +304,13 @@ Then print:
 (a < b) == (c > b)
 Explain why the results differ.
 
+R17. If you've learned && and ||, check whether age = 22 is between 18 and 60, inclusive.doubt...
 
+R18. Use relational operators to test whether num = 2468 is greater than 1000 and less than 5000.
 
+R19. Given a = 27 and b = 8, check whether (a / b) * b + (a % b) == a.
+
+R20. Given a = 9, b = 2, and c = 4, predict the result of (a > b) == (c > b), then change one value and make the result false
 
 
 
@@ -330,6 +386,7 @@ Note: Questions B14–B16 are intentionally more advanced. If your teacher has o
 
 
 ######################### Topic 5 — Data types and literals #########################
+
 This section tests whether you understand the type of a value, which values can be stored in a variable, and what happens when Java converts between types.
 
 Remember:
@@ -404,3 +461,127 @@ Declare char ch = 'A';. Store ch + 2 in an int variable and print it. Then expli
 
 D16. Precision challenge :
 Declare two double variables with values 0.1 and 0.2. Print their sum and compare it with 0.3 using ==. Observe the output and investigate why floating-point calculations may not produce the exact decimal value you expect.
+
+
+
+############################# Topic 6 — if, else, and else if ##########################################
+
+C1. Positive or negative
+Store an integer and use if-else to print whether it is positive or negative. For now, assume the number is not zero.
+
+C2. Voting eligibility
+Store age = 17. Print "Eligible" if age is at least 18; otherwise print "Not eligible".
+
+C3. Even or odd
+Store num = 26. Use % and if-else to determine whether it is even or odd.
+
+C4. Greater of two numbers
+Store two integers and print the greater number. Also handle the case where both are equal.
+
+C5. Divisibility
+Store num = 45. Check whether it is divisible by both 3 and 5. Use nested conditions only if that's what you've learned.
+
+C6. Marks and grades
+Store marks out of 100. Print "Pass" if marks are at least 40; otherwise print "Fail".
+
+C7. Largest of three numbers
+Store three different integers and print the largest using if-else if-else.
+
+C8. Leap year basics
+Store a year and determine whether it is a leap year. Use the standard rules: divisible by 400, or divisible by 4 but not by 100.
+
+C9. Three-digit palindrome
+Store a three-digit number, reverse it using arithmetic, and use if-else to check whether the original and reversed numbers are equal.
+
+C10. Number classification
+Store an integer. Print whether it is positive, negative, or zero.
+
+C11. Divisibility challenge
+Store a number and determine whether it is divisible by 2, 3, both, or neither. Print an appropriate message for each case.
+
+C12. Second-largest number
+Store three different integers. Find the second-largest number using conditions, without sorting or arrays.
+
+
+
+# if-else with scanner class:-
+
+1. Positive, Negative or Zero: Input a number and check whether it is positive, negative or zero.
+
+2. Even or Odd: Input a number and check whether it is even or odd.
+
+3. Greater Number: Input two numbers and print which one is greater. Also handle the case where both are equal.
+
+4. Divisibility: Input two numbers. Check whether the first number is divisible by the second. Handle division by zero.
+
+5. Divisible by Both: Input a number. Check whether it is divisible by both 3 and 5.
+
+6. Divisible by Either: Input a number. Check whether it is divisible by either 3 or 5.
+
+7. Voting Eligibility: Input age. If age is 18 or above, print eligible; otherwise, print not eligible. Reject negative ages.
+
+8. Largest of Three: Input three numbers and print the largest. Also handle equal numbers.
+
+9. Number Range: Input a number. Check whether it lies between 100 and 999 (inclusive).
+
+10. Leap Year: Input a year and determine whether it is a leap year.
+
+11. Triangle Validity: Input three sides. Check whether they can form a valid triangle. (The sum of any two sides must be greater than the third.)
+
+12. Electricity Bill: Input units consumed:
+    - Up to 100 units: ₹5 per unit.
+    - 101–200 units: ₹7 per unit.
+    - Above 200 units: ₹10 per unit.
+    Calculate the bill using the applicable rate for all units.
+
+13. Three-Digit Number: Input a number and check whether it is a three-digit number, including negative three-digit numbers.
+
+14. Second Largest: Input three numbers and print the second-largest distinct number. If no distinct second-largest number exists, print an appropriate message.
+
+15. Calculator: Input two numbers and an operator (+, -, *, /, %). Perform the selected operation and handle division or modulo by zero.
+
+16. Admission Eligibility: Input marks in Physics, Chemistry and Mathematics. A student qualifies if:
+    - Each subject has at least 40 marks.
+    - Total marks are at least 150.
+    - Mathematics marks are at least 50.
+
+######################################### Topic 6 — Loops ##########################################
+The key question is: How does the variable change, and when does the loop stop?
+
+L1. Count upward
+Print the numbers from 1 to 10, using a for loop.
+
+L2. Count downward
+Print the numbers from 10 to 1.
+
+L3. Print multiples
+Print the first 10 multiples of 5, starting with 5 and ending with 50.
+
+L4. Sum of numbers
+Calculate the sum of integers from 1 to 10 using a loop.
+
+L5. Multiplication table
+Store num = 7 and print its multiplication table from 7 × 1 through 7 × 10.
+
+L6. Count digits
+Store num = 9258. Count its digits using repeated integer division by 10. Print the final digit count, not every intermediate counter value.
+
+L7. Reverse a number
+Store org = 7298. Use a for loop to reverse the number. Use a separate working variable so the original stays unchanged.
+
+L8. Sum of digits
+Store num = 5837. Use a loop to calculate the sum of its digits.
+
+L9. Count even digits
+Store num = 583726. Count how many of its digits are even, using a loop and a condition.
+
+L10. Palindrome number
+Store num = 12321. Reverse it using a loop and determine whether it is a palindrome.
+
+L11. Count occurrences of a digit
+Store num = 525252 and target = 5. Count how many times the target digit appears in the number.
+
+L12. Armstrong number
+Store num = 153. Determine whether it is an Armstrong number by adding each digit cubed. For example, \(1^3 + 5^3 + 3^3 = 153\).
+Start with this specific three-digit number. Generalising the program to other digit lengths can come later.
+

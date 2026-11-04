@@ -112,3 +112,298 @@
 
 
 
+
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int org = 729;
+//         int rev = 0;
+
+//         rev = rev + org % 10 * 100;
+//         org = org/10;
+
+//         rev = rev + org % 10 * 10;
+//         org = org/10;
+
+//        int Result = rev + org;
+
+//         System.out.println(Result);
+//     }
+// } 
+
+
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int org = 4256;   
+//         int rev = 0;
+
+//         rev = org %10 *1000;
+//         org = org/10;
+
+//         int rev1 = org % 10 *100;
+//         org = org/10;
+
+//         int rev2 = org % 10 * 10;
+
+//        int Result = rev + rev1 + rev2 + org;
+
+//         System.out.println(Result);
+//     }
+// } 
+
+
+
+// use if condition when you need to tae single decision only.
+
+
+
+
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+        
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Can you vote:");
+//         String vote = sc.nextLine();
+        
+//         System.out.println(vote.equals("yes"));
+//         System.out.println(vote);
+
+        
+
+//         if(vote.equals("yes")){
+//             System.out.println("Eligible ");
+//         }
+//         else{
+//             System.out.println("Not Eligible ");
+
+//         }
+//     }
+// } 
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//        int a = 17;
+//        int b = 23;
+//        System.out.println(a%b == 5); 
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ======================================================================================================
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int org = 7298;
+//         int rev = 0;
+
+//         rev = rev + org % 10 * 1000;
+//         org = org/10;
+
+//         rev = rev + org % 10 * 100;
+//         org = org/10;
+
+//         rev = rev + org % 10 * 10;
+//         org = org/10;
+
+//         rev = rev + org %10 * 1;
+
+//         System.out.println(rev);
+//     }
+// } 
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int org = 7298;
+//         int rev = 0;
+
+//         rev = rev + org % 10 * 10^3;
+//         org = org/10;
+
+//         rev = rev + org % 10 * 10^2;
+//         org = org/10;
+
+//         rev = rev + org % 10 * 10^1;
+//         org = org/10;
+
+//         rev = rev + org %10 * 10^0;
+
+//         System.out.println(rev);
+//     }
+// } 
+
+
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int org = 7298;
+//         int rev = 0;
+
+//        if(org<1){
+          
+//        }
+
+//         System.out.println(rev);
+//     }
+// } 
+
+
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//     int num = 9258;
+//       num = num / 10;
+//       num = num / 10;
+//       num = num / 10;
+//       num = num / 10;
+//     int count = num;
+//         System.out.println(count);
+//     }
+// }
+
+
+
+
+// Ques. found the digit count of a number ?
+
+// public class Main {
+//     public static void main(String[] args) {
+//     int num = 9258;
+//     int i;
+//       for( i=0; num>0; i++){ // here num>0 humari originall value  represent kar rha hai ye 9258 hai .
+//         num = num/10;
+//          System.out.println(i);
+//       }
+//         System.out.println(i);
+//          System.out.println(num);
+//     }
+// }
+
+
+
+//using for loop
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter a number");
+//         int org = sc.nextInt();
+        
+//         // int org = 7298;
+//         int num = org;
+//         int rev = 0;
+//         int i;
+//         int count;
+
+//         for( i=0; num>0; i++){ // here num>0 humari originall value  represent kar rha hai ye 7298 hai .
+//             num = num/10;    
+//         }
+//         count = i;
+//         System.out.println(count);
+
+//         for(; i>0; i--){ // here you dont need to write count or i here.
+//             rev = rev + org % 10 * (int) Math.pow(10, i-1);
+//             org = org/10;
+//             System.out.println("i =" + i);
+//             System.out.println("rev =" + rev);
+//             System.out.println("org =" + org);
+//             //  System.out.println( Math.pow(10, 2));
+//         }
+//     }
+// } 
+// i =4
+// rev =8000
+// org =729
+// i =3
+// rev =8900
+// org =72
+// i =2
+// rev =8920
+// org =7
+// i =1
+// rev =8927
+// org =0
+
+
+
+
+//  import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//        int num;
+//        int x;
+//        Scanner sc = new Scanner(System.in);
+//          System.out.println("Enter your number");
+//           num = sc.nextInt();
+
+//         sc = new Scanner(System.in);
+//          System.out.println("Enter your number");
+//           x = sc.nextInt();  
+        
+//       if(num%x == 0){
+//         System.out.println("not divisible"); 
+//       }else{
+//         System.out.println(" divisible");
+//       }
+//     }
+// }
+
+
+
+
+ import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       int num;
+       int x;
+       Scanner sc = new Scanner(System.in);
+         System.out.println("Enter your number");
+          num = sc.nextInt();
+
+        sc = new Scanner(System.in);
+         System.out.println("Enter your number");
+          x = sc.nextInt();  
+        if(num != 0 && x !=0){
+            if(num%x > 0 || num%x < 0){
+                System.out.println("not divisible"); 
+            }
+            else{
+                System.out.println(" divisible");
+            }
+        }
+        else{
+            System.out.println("Please enter a valid Number");
+        }
+    }
+}
+
+
+

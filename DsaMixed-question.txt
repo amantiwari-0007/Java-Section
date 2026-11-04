@@ -1,0 +1,51 @@
+
+##################################### Topic- Mixed questions ########################################
+
+M1. Predict the output
+int a = 10;
+int b = 3;
+System.out.println(a / b);
+System.out.println(a % b);
+System.out.println(a + b * 2);
+Predict all three outputs before running the program.
+
+M2. Even or odd
+Store num = 148. Use % and if-else to determine whether it is even or odd.
+
+M3. Trace a loop
+for (int i = 1; i <= 5; i++) {
+    System.out.println(i);
+}
+Write down every value of i that gets printed and the value that causes the loop to stop.
+
+M4. Sum and average
+Use a loop to calculate the sum of numbers from 1 to 20. Then calculate their average using integer arithmetic.
+
+M5. Reverse and compare
+Store num = 1221. Reverse it using a loop, then use if-else to check whether the reversed number matches the original.
+
+M6. Find the final value
+int num = 5;
+for (int i = 1; i <= 3; i++) {
+    num = num + i;
+}
+System.out.println(num);
+Predict the output and show the value of num after every iteration.
+
+M7. Digit sum and digit count
+Store num = 58372. Use a loop to calculate both the digit count and the sum of the digits.
+
+M8. Find the largest digit
+Store num = 58372. Use a loop and conditions to find the largest digit. Don't use strings or arrays.
+
+M9. Divisibility from 1 to 100
+Use a loop to examine every number from 1 to 100. Print the numbers divisible by both 3 and 5.
+
+M10. Second-largest digit
+Store num = 58372. Find the second-largest distinct digit using a loop and conditions. Don't use arrays or strings.
+
+M11. Perfect number
+Store num = 28. Find the sum of its positive divisors excluding itself. Determine whether the number is perfect. (For 28, the divisors are 1, 2, 4, 7, and 14.)
+
+M12. Reverse any positive integer
+Write a program that reverses a positive integer of any length using a loop. Test it with 7298, 583, and 1200. Think about what should happen to leading zeros in the reversed result.

@@ -1,0 +1,594 @@
+================================== Topic 1 — Arithmetic operators=======================================
+
+
+1.
+public class Main {
+    public static void main(String[] args) {
+        int num1 = 145;
+        int num2 = 38;
+        System.out.println(num1 + num2);
+        System.out.println(num1-num2);
+    }
+} 
+
+ 
+2.
+public class Main {
+    public static void main(String[] args) {
+        int OneNotebookCost = 38;
+        System.out.println(OneNotebookCost*8);
+    }
+} 
+
+
+3.
+public class Main {
+    public static void main(String[] args) {
+        int num1  = 157;
+        int num2 = 12;
+        System.out.println(num1/num2);
+    }
+} 
+
+
+4.
+public class Main {
+    public static void main(String[] args) {
+        int num1  = 157;
+        int num2 = 12;
+        System.out.println(num1%num2);
+    }
+} 
+
+
+5.
+public class Main {
+    public static void main(String[] args) {
+        int item1  = 145;
+        int item2 = 85;
+        int totalbill = item1*3 + item2*2;
+        System.out.println(totalbill);
+    }
+} 
+
+
+6.
+public class Main {
+    public static void main(String[] args) {
+        int num1  = 78;
+        int num2 = 83;
+        int num3 = 91;
+        int num4 = 68;
+        int totalbill = num1+num2+num3+num4;
+        System.out.println(totalbill/4);
+    }
+} 
+
+
+7.
+public class Main {
+    public static void main(String[] args) {
+        int time  = 347;
+        System.out.println(time/60);
+        System.out.println(time%60);
+    }
+} 
+
+8.
+public class Main {
+    public static void main(String[] args) {
+        int number  = 47;
+        System.out.println(number/10);
+        System.out.println(number%10);
+    }
+} 
+
+9.
+ To reverse a number properly using arithmetic operators, you need a formula that works for any two-digit number.
+
+The Math Behind Reversing a Number
+
+To reverse a two-digit number like 68 into 86, you need to separate its digits using division (/) and modulo (%):
+1. Find the last digit (ones place): 68 % 10 = 8
+2. Find the first digit (tens place): 68 / 10 = 6
+3. Combine them in reverse order: Multiply the new first digit by 10 and add the second digit: (8 * 10) + 6 = 86
+
+
+public class Main {
+    public static void main(String[] args) {
+        int number  = 68;
+        int FirstNumber = 68/10;
+        int LastNumber = 68%10;
+        // 3. Shift the last digit to the tens place and add the first digit
+        System.out.println(LastNumber *10 +FirstNumber);
+    }
+} 
+
+10.
+
+
+
+
+11.
+public class Main {
+    public static void main(String[] args) {
+        int totalSeconds = 10537;
+        
+        // 1. Calculate complete hours
+        int hours = totalSeconds / 3600; 
+        // 2. Find leftover seconds after removing complete hours
+        int remainingSecondsAfterHours = totalSeconds % 3600;
+        // 3. Calculate remaining minutes from the leftover seconds
+        int minutes = remainingSecondsAfterHours / 60;
+        // 4. Calculate the final remaining seconds
+        int seconds = remainingSecondsAfterHours % 60;
+
+        System.out.println("Hours: " + hours);     // Outputs 2
+        System.out.println("Minutes: " + minutes); // Outputs 55
+        System.out.println("Seconds: " + seconds); // Outputs 37
+    }
+}
+
+12.
+public class Main {
+    public static void main(String[] args) {
+        int a = 23;
+        int b = 6;
+        int c = 4;
+        int res = a + b * c - a / b + a % b;
+       
+        System.out.println(res);
+    }
+} 
+
+13.
+public class Main {
+    public static void main(String[] args) {
+       int original = 729;
+       int reverse = 0;
+
+       reverse = 729%10*100;
+       original = original/10;
+
+       int reverse1 = original%10*10;
+       original = original/10;
+
+       int result = original + reverse + reverse1;
+    
+        System.out.println(result);
+    }
+} 
+
+14.
+public class Main {
+    public static void main(String[] args) {
+       int StoredNumber = 846;
+       int thirdDigit = StoredNumber%10; 
+       int org = StoredNumber/10;
+       int secondDgt = org%10;
+       int org1 = org/10; 
+       int firstdigit = org1%10;   
+
+       int result = thirdDigit + firstdigit + secondDgt;
+
+       System.out.println(thirdDigit);
+       System.out.println(secondDgt);
+       System.out.println(firstdigit); 
+       System.out.println(result); 
+    }
+} 
+
+
+15.
+public class Main {
+    public static void main(String[] args) {
+       int bill = 2387;
+       int EachPerson = bill/9;
+       int remainingAmount = bill%9;
+
+        
+        System.out.println(EachPerson);
+        System.out.println(remainingAmount);
+
+    }
+} 
+
+
+16.
+
+
+
+===================================Topic 2 — Uniary operators==========================================
+
+1.
+
+public class Main {
+    public static void main(String[] args) {
+       int num1 = 25;
+        System.out.println(-num1);
+    }
+} 
+
+
+2.
+public class Main {
+    public static void main(String[] args) {
+       int num1 = 10;
+       num1 = num1++;
+
+        System.out.println(num1);
+    }
+} 
+
+
+3.
+public class Main {
+    public static void main(String[] args) {
+       int num1 = 30;
+       num1 = num1--;
+
+        System.out.println(num1);
+    }
+} 
+
+
+4.
+public class Main {
+    public static void main(String[] args) {
+       Boolean value1 = true;
+        System.out.println(!value1);
+    }
+} 
+
+
+5.
+public class Main {
+    public static void main(String[] args) {
+       int a = 5;
+       a = ++a;
+
+        System.out.println(a);
+    }
+} 
+
+
+6.
+public class Main {
+    public static void main(String[] args) {
+       int a = 5;
+
+        System.out.println( a++);
+        System.out.println( a);
+    }
+} 
+
+
+7.
+public class Main {
+    public static void main(String[] args) {
+       int a = 12;
+
+        System.out.println( --a);
+        System.out.println( a);
+    }
+} 
+
+
+8.
+public class Main {
+    public static void main(String[] args) {
+       Boolean value1 = true;
+       Boolean value2 = false;
+        System.out.println(!value1 );
+        System.out.println(!value2);
+    }
+} 
+
+
+9.
+public class Main {
+    public static void main(String[] args) {
+       int a = 10;
+       a++;
+       System.out.println(a); 
+       ++a;
+       System.out.println(a); 
+       a--;
+       System.out.println(a); 
+       --a;
+       System.out.println(a); 
+    }
+}
+
+10.
+public class Main {
+    public static void main(String[] args) {
+       int a = 4;
+       int result = a++ + 3;
+       System.out.println(result); 
+       System.out.println(a); 
+
+    }
+}
+
+
+11.
+public class Main {
+    public static void main(String[] args) {
+       int a = 4;
+       int result = ++a + 3;
+       System.out.println(result); 
+       System.out.println(a); 
+
+    }
+}
+
+
+12.
+
+public class Main {
+    public static void main(String[] args) {
+       Boolean a = false;
+       System.out.println(!!a); 
+
+    }
+}
+
+13.
+public class Main {
+    public static void main(String[] args) {
+       int a = 8;
+       int x = a++;
+       System.out.println(x); 
+
+       int y = ++a;
+       System.out.println(y); 
+
+       int z = a--;
+       System.out.println(z); 
+
+       int w = --a;
+       System.out.println(w); 
+    }
+}
+
+14.
+public class Main {
+    public static void main(String[] args) {
+       int a = 3;
+       int result = a++ + ++a;
+       System.out.println(result); 
+       System.out.println(a); 
+
+    }
+}
+// a++ + ++a; ====> a++ likha 3 hi jayega but vo update hoke 4 ho chuka hai and aab jab ++a likehenge so vo 4+1 hoga matlab 5 kyuki updted value a ki hai 4 then 4+1 =5.
+
+
+15.
+public class Main {
+    public static void main(String[] args) {
+       int a = 7;
+       int result = -a++; 
+       System.out.println(result); 
+       System.out.println(a); 
+    }
+}
+// -a++ -7 hoga bec. a++ value -8 ho jayega but update baad mai hoga vo so abhi -7 hi dkhega. 
+
+
+
+16.
+public class Main {
+    public static void main(String[] args) {
+       int a = 5;
+       System.out.println(~a); 
+
+    }
+}
+
+
+
+================================Topic 3 — Relational operators=========================================
+
+1.
+public class Main {
+    public static void main(String[] args) {
+       int num1 = 45;
+       int num2 = 32;
+       System.out.println(num1>num2); 
+
+    }
+}
+
+
+2.
+public class Main {
+    public static void main(String[] args) {
+       int num1 = 100;
+       int num2 = 100;
+       System.out.println(num1 == num2); 
+
+    }
+}
+
+
+3.
+public class Main {
+    public static void main(String[] args) {
+       int num1 = 17;
+       int num2 = 21;
+       System.out.println(num1 != num2); 
+
+    }
+}
+
+
+4.
+public class Main {
+    public static void main(String[] args) {
+       int num1 = 50;
+       int num2 = 50;
+       System.out.println(num1 <= num2); 
+
+    }
+}
+
+
+5.
+public class Main {
+    public static void main(String[] args) {
+       int age1 = 19;
+       int age2 = 21;
+       System.out.println(age1 < age2); 
+       System.out.println(age1 < age2);
+       System.out.println(age1 == age2); 
+       System.out.println(age1 != age2);
+       
+
+    }
+}
+
+6.
+
+public class Main {
+    public static void main(String[] args) {
+       int vaalue = 100;
+       System.out.println(vaalue>=100); 
+       System.out.println(vaalue<=100);
+       
+
+    }
+}
+
+
+7.
+public class Main {
+    public static void main(String[] args) {
+       int a = 8;
+       int b = 3;
+       System.out.println(a*b > a+b); 
+    }
+}
+
+
+8.
+public class Main {
+    public static void main(String[] args) {
+       int a = 17;
+       int b = 23;
+       System.out.println(a%b == 5); 
+    }
+}
+
+
+9.
+public class Main {
+    public static void main(String[] args) {
+       int a = 12;
+       int b = 4;
+       System.out.println(a > b);
+       System.out.println(a < b);  
+       System.out.println(a >= b); 
+       System.out.println(a <= b); 
+       System.out.println(a != b); 
+       System.out.println(a == b); 
+    }
+}
+
+10.
+public class Main {
+    public static void main(String[] args) {
+       int a = 7;
+       int b = 3;
+       int c = 2;
+       System.out.println((a + b) > (b * c)); 
+       System.out.println((a % c) == (b % c));
+    }
+}
+
+
+11....
+public class Main {
+    public static void main(String[] args) {
+       int a = 15;
+       int b = 4;
+      
+        System.out.println(a/b == 3); 
+        System.out.println(a/b > 3); 
+        System.out.println(a/b < 3); 
+       
+    }
+}
+
+12.
+public class Main {
+    public static void main(String[] args) {
+       int a = 10;
+       int b = 10;
+      
+        System.out.println(a >= b); 
+        System.out.println(a != b); 
+      
+    }
+}
+
+
+
+13.
+public class Main {
+    public static void main(String[] args) {
+       int a = 5;
+       int b = 10;
+       int c = 15;
+       Boolean ans1 = a<b;
+       Boolean ans2 = a<c;
+       Boolean ans3 = b<c;
+      
+        System.out.println(ans1 == ans2); 
+        System.out.println(ans1 == ans3); 
+        System.out.println(ans2 == ans3); 
+    
+    }
+}
+
+14.
+public class Main {
+    public static void main(String[] args) {
+       int a = 27;
+       int b = 8;
+      
+        System.out.println((a / b) * b + (a % b) == a); 
+      
+    }
+}
+
+15.doubt...
+public class Main {
+    public static void main(String[] args) {
+       int a = 14;
+       int b = 5;
+       int c = 4;
+      
+        System.out.println(- a > b * c); 
+        System.out.println(- a % b == c); 
+        System.out.println(- a / c == b); 
+        System.out.println(- a - b == b + c); 
+    }
+}
+
+16.
+public class Main {
+    public static void main(String[] args) {
+       int a = 9;
+       int b = 2;
+       int c = 4;
+      
+        System.out.println((a > b) == (c > b)); 
+        System.out.println((a < b) == (c > b)); 
+    }
+}
+
+The results differ because the == operator is checking if the two boolean conditions have the exact same truth value.
+
+17.
