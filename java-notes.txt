@@ -1,20 +1,100 @@
-1. 10 ^ 3 is not \(10^3\) in Java.
+1. 10 ^ 3 is not (10^3) in Java.
 
 The ^ operator means bitwise XOR, not exponentiation. For your digit-reversal exercise, you can use place values directly, or use Math.pow(10, i - 1) with an explicit cast when needed.
 
 2. Preserve your original number.
-
 When counting digits or reversing a number, use a working copy:
 int org = 7298;
 int num = org;
 
-
 Perform repeated division on num, while keeping org available for later comparisons.
 
 3. Your digit-count loop currently assumes a positive number.
-
 A loop whose condition is num > 0 won't count zero as one digit, and it won't process negative numbers. For now, practise with positive integers; we'll handle these edge cases later.
 
 4. Keep your loop counter separate from your digit count.
-
 A for loop's counter is not automatically the digit count. The number of iterations tells you the count only when the loop is designed so each iteration removes exactly one digit.
+
+
+5.
+In Java, the bitwise operators have a defined precedence:
+&
+^
+|
+
+6.
+Reverse number question-type :- 
+
+# Method 1 =>
+public class Main {
+    public static void main(String[] args) {
+
+int org = 9258;
+int rev = 0;
+
+ rev = org%10*1000;
+ org = org/10;
+
+ int rev1 = org%10*100;
+ org = org/10;
+
+ int rev2 = org%10*10;
+ org = org/10;
+
+ int rev3 = org%10*1;
+ org = org/10;
+
+ int result = rev + rev1 + rev2 + rev3 + org;
+   System.out.println(result);
+    }
+}
+
+# Method 2 => 
+public class Main {
+    public static void main(String[] args) {
+
+int org = 9258;
+int rev = 0;
+
+ rev = rev + org%10*1000;
+ org = org/10;
+
+ rev = rev + org%10*100;
+ org = org/10;
+
+ rev =  rev + org%10*10;
+ org = org/10;
+
+ rev =  rev + org%10*1;
+ org = org/10;
+
+ int result = rev + org;
+   System.out.println(result);
+    }
+}
+
+# Method 3 => 
+ import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int number;
+       Scanner sc = new Scanner(System.in);
+         System.out.println("Enter number");
+          number = sc.nextInt();
+
+        int reversenumber = 0;
+        while(number > 0){
+            int lastDigit = number % 10;
+            reversenumber = reversenumber * 10 + lastDigit;
+            number = number / 10;
+        }
+            System.out.println(reversenumber);
+    }
+}
+
+// reversenumber is not directly increasing , it is happening bec. of lastDigit variable value came and calculation happen in reveresenumber variable and it become what we want.(reverse)
+
+
+7. An Armstrong number (also known as a narcissistic number) is a positive integer that equals the sum of its own digits, each raised to the power of the total number of digits. For example, 153 is an Armstrong number because it has 3 digits and \(1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153\)

@@ -49,3 +49,21 @@ Store num = 28. Find the sum of its positive divisors excluding itself. Determin
 
 M12. Reverse any positive integer
 Write a program that reverses a positive integer of any length using a loop. Test it with 7298, 583, and 1200. Think about what should happen to leading zeros in the reversed result.
+
+M13. Write a java programm for pallendrome number ?
+
+M14. Write a java programm for Armstrong number ?
+
+M15. Write a java programm to find prime Numbers ?
+
+M16. Find sum of Numbers by the user, may be 2 numbers or more than 2 numbers ?
+
+M17. Find LCM of 2 numbers in java ?
+
+M18. Write a java program to find Greatest commom factor or HCF of 2 numbers ?
+
+M19.  Write a java program to calculate power of a number in java with and without using pow method ?
+
+M20. Write a java program to find sum of first n numnbers ? 
+
+m21. Write a java program for fabonacci series ?

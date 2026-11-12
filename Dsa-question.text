@@ -106,11 +106,7 @@ Given a = 29, b = 7, and c = 3, calculate:
 (a + b) * c % b + a / c * b
 Predict the output using Java's integer arithmetic rules, then verify it.
 
-A17. Store 586 in an integer variable. Print its last digit.
-
 A18. Store 586 and extract its last two digits as the number 86.
-
-A19. Store 583. Calculate its hundreds, tens, and units digits separately and print each digit.
 
 A20. Reverse a three-digit number
 Store 729 and calculate 927 using arithmetic operators.
@@ -202,35 +198,12 @@ If you have learned the unary ~ operator, store 5 in an integer variable and pri
 
 U17. Start with a = 10. Increment it once and print the final value.
 
-U18. Start with a = 25. Decrement it twice, then print it.
+U18. Start with a = 4. Calculate int result = ++a + 3;. Print both variables.
 
-U19. Start with boolean active = true. Print !active.
-
-U20. Start with a = 5. Print a++, then a.
-
-U21. Start with a = 5. Print ++a, then a.
-
-U22. Start with a = 8. Execute a++, ++a, and a-- as separate statements. Print the value after each.
-
-U23. Start with a = 4. Calculate int result = a++ + 3;. Print both variables.
-
-U24. Start with a = 4. Calculate int result = ++a + 3;. Print both variables.
-
-U25. Start with a = 3. Evaluate int result = a++ + ++a;. Predict the result and final value of a, then verify.
-
-U26. Trace the values
-Start with a = 8. Execute the following as separate statements:
-int x = a++;
-int y = ++a;
-int z = a--;
-int w = --a;
-
-Print a, x, y, z, and w.
-
-U27. Logical negation
+U19. Logical negation
 Start with boolean a = false. Print !a, !!a, and !!!a.
 
-U28. Predict before running
+U20. Predict before running ***
 Start with a = 10 and b = 3. Evaluate int result = -a + b++;. Print result, a, and b.
 
 
@@ -304,7 +277,7 @@ Then print:
 (a < b) == (c > b)
 Explain why the results differ.
 
-R17. If you've learned && and ||, check whether age = 22 is between 18 and 60, inclusive.doubt...
+R17. If you've learned && and ||, check whether age = 22 is between 18 and 60, inclusive.
 
 R18. Use relational operators to test whether num = 2468 is greater than 1000 and less than 5000.
 
@@ -328,9 +301,8 @@ Using the same values, print a | b.
 B3. Bitwise XOR (^)
 Store 6 and 3. Print a ^ b.
 
-B4. Left shift (<<)
+B4. Left shift (<<)......
 Store 4 in an integer variable. Print a << 1. If left shift hasn't been taught yet, leave this one until class covers it.
-
 
 B5. Compare AND and OR
 For a = 10 and b = 12, print a & b and a | b. Explain why the results differ.
@@ -341,9 +313,8 @@ Store 7 in both a and b. Print a ^ b.
 B7. Complement (~)
 Store 5 in an integer variable. Print ~a. Try to explain the result using Java's signed integer representation.
 
-B8. Right shift (>>)
+B8. Right shift (>>).....
 Store 20 in an integer variable. Print a >> 2.
-
 
 B9. All three bitwise operators
 For a = 13 and b = 10, print a & b, a | b, and a ^ b. Work out the binary values first.
@@ -354,34 +325,35 @@ Store 12 in an integer variable. Print a << 2 and a >> 1.
 B11. Bitwise expression
 For a = 6, b = 3, and c = 5, calculate:
 a & b | c
-Predict the result using Java's operator precedence, then run it.
+Predict the result using Java's operator precedence, then run it.                                                    
 
 B12. XOR sequence
 Start with a = 9, b = 5, and c = 3. Print:
 a ^ b, b ^ c, and a ^ b ^ c.
 Show the binary working for the last expression.
 
-B13. Mixed bitwise operations
+B13. Mixed bitwise operations ***
 For a = 12 and b = 10, calculate:
 a ^ b & a | b
 Predict the output using Java's operator precedence. Then verify it.
 
-B14. Complement and AND
+B14. Complement and AND .................doubt
 For a = 10 and b = 7, calculate:
 (~a) & b
 Explain why the result is not obtained by treating ~a as a four-bit-only complement.
 
-B15. Shift and mask
+## (~a) => ~(a+1);
+
+
+B15. Shift and mask ...............dk(don't know)
 Store a = 45. Calculate:
 (a >> 2) & 7
 Work out each intermediate result.
 
-B16. Signed versus unsigned right shift
+B16. Signed versus unsigned right shift................dk
 Store a = -16. Print a >> 2 and a >>> 2. Compare the outputs and explain the difference between sign extension and zero filling.
 
-
-Note: Questions B14–B16 are intentionally more advanced. If your teacher has only covered &, |, and ^, complete B1–B3 first and return to the rest as those operators are taught.
-
+B17. Write a program to check if a given number is even or odd using bitwise operator............doubt
 
 
 
@@ -396,7 +368,6 @@ Remember:
 - boolean stores true or false.
 
 
-
 D1. Choose the data type
 Identify the most suitable primitive type for each value: 25, true, 4.5, 'A', and 9000000000L.
 
@@ -408,7 +379,6 @@ Declare an int variable with value 250 and a long variable with value 5000000000
 
 D4. Floating-point literals
 Declare a float variable with value 3.14f and a double variable with value 3.14. Print both.
-
 
 D5. Primitive ranges
 Identify which primitive integer type is suitable for each value: 100, 30000, 200000, and 5000000000L. Choose the smallest suitable type from byte, short, int, and long.
@@ -422,13 +392,11 @@ float d = 3.14;
 char e = 'A';
 char f = "A";
 
-
 D7. Character arithmetic
 Declare char ch = 'A';. Print ch and then print ch + 1. Observe the difference between the outputs.
 
 D8. Boolean values
 Declare two boolean variables, one true and one false. Print each value and the result of comparing them using == and !=.
-
 
 D9. Type conversion
 Store 25 in an int variable. Assign it to a long variable and print both values. Explain why this assignment is permitted.
@@ -442,13 +410,7 @@ Declare float a = 5.5f and float b = 2.0f. Print their sum, difference, product,
 D12. Integer overflow
 Store 127 in a byte variable. Try to calculate a + 1 and assign the result to another byte variable. Does the code compile? If not, investigate why, and test an explicit cast.
 
-
-D13. Find the smallest suitable type
-For each value below, identify the smallest suitable primitive type from byte, short, int, and long:
--128, 127, 128, 32767, 32768, and 2147483648L.
-Explain the boundaries.
-
-D14. Trace mixed arithmetic
+D13. Trace mixed arithmetic
 Examine the following program and predict whether it compiles. If it compiles, predict the output.
 int a = 7;
 double b = 2;
@@ -456,11 +418,11 @@ double c = a / b;
 System.out.println(c);
 Now change b to an int variable with value 2. Predict the new output and explain the difference.
 
-D15. Character and integer types
+D14. Character and integer types............
 Declare char ch = 'A';. Store ch + 2 in an int variable and print it. Then explicitly cast that result back to char and print it. Explain both outputs.
 
-D16. Precision challenge :
-Declare two double variables with values 0.1 and 0.2. Print their sum and compare it with 0.3 using ==. Observe the output and investigate why floating-point calculations may not produce the exact decimal value you expect.
+D15. Precision challenge :
+Declare two double variables with values 0.1 and 0.2. Print their sum and compare it with 0.3 using ==. Observe the output and investigate why floating-point calculations may not produce the exact decimal value you expect.................
 
 
 
@@ -475,7 +437,7 @@ Store age = 17. Print "Eligible" if age is at least 18; otherwise print "Not eli
 C3. Even or odd
 Store num = 26. Use % and if-else to determine whether it is even or odd.
 
-C4. Greater of two numbers
+C4. Greater of two numbers 
 Store two integers and print the greater number. Also handle the case where both are equal.
 
 C5. Divisibility
@@ -487,10 +449,10 @@ Store marks out of 100. Print "Pass" if marks are at least 40; otherwise print "
 C7. Largest of three numbers
 Store three different integers and print the largest using if-else if-else.
 
-C8. Leap year basics
+C8. Leap year basics **
 Store a year and determine whether it is a leap year. Use the standard rules: divisible by 400, or divisible by 4 but not by 100.
 
-C9. Three-digit palindrome
+C9. Three-digit palindrome **
 Store a three-digit number, reverse it using arithmetic, and use if-else to check whether the original and reversed numbers are equal.
 
 C10. Number classification
@@ -499,51 +461,43 @@ Store an integer. Print whether it is positive, negative, or zero.
 C11. Divisibility challenge
 Store a number and determine whether it is divisible by 2, 3, both, or neither. Print an appropriate message for each case.
 
-C12. Second-largest number
+C12. Second-largest number **
 Store three different integers. Find the second-largest number using conditions, without sorting or arrays.
 
 
 
 # if-else with scanner class:-
 
-1. Positive, Negative or Zero: Input a number and check whether it is positive, negative or zero.
+1. Greater Number: Input two numbers and print which one is greater. Also handle the case where both are equal.
 
-2. Even or Odd: Input a number and check whether it is even or odd.
+2. Divisibility: Input two numbers. Check whether the first number is divisible by the second. Handle division by zero.
 
-3. Greater Number: Input two numbers and print which one is greater. Also handle the case where both are equal.
+3. Divisible by Both: Input a number. Check whether it is divisible by both 3 and 5.
 
-4. Divisibility: Input two numbers. Check whether the first number is divisible by the second. Handle division by zero.
+4. Number Range: Input a number. Check whether it lies between 100 and 999 (inclusive).
 
-5. Divisible by Both: Input a number. Check whether it is divisible by both 3 and 5.
+5. Triangle Validity: Input three sides. Check whether they can form a valid triangle. (The sum of any two sides must be greater than the third.)
 
-6. Divisible by Either: Input a number. Check whether it is divisible by either 3 or 5.
-
-7. Voting Eligibility: Input age. If age is 18 or above, print eligible; otherwise, print not eligible. Reject negative ages.
-
-8. Largest of Three: Input three numbers and print the largest. Also handle equal numbers.
-
-9. Number Range: Input a number. Check whether it lies between 100 and 999 (inclusive).
-
-10. Leap Year: Input a year and determine whether it is a leap year.
-
-11. Triangle Validity: Input three sides. Check whether they can form a valid triangle. (The sum of any two sides must be greater than the third.)
-
-12. Electricity Bill: Input units consumed:
+6. Electricity Bill: Input units consumed:**
     - Up to 100 units: ₹5 per unit.
     - 101–200 units: ₹7 per unit.
     - Above 200 units: ₹10 per unit.
     Calculate the bill using the applicable rate for all units.
 
-13. Three-Digit Number: Input a number and check whether it is a three-digit number, including negative three-digit numbers.
+7. Three-Digit Number: Input a number and check whether it is a three-digit number, including negative three-digit numbers.
 
-14. Second Largest: Input three numbers and print the second-largest distinct number. If no distinct second-largest number exists, print an appropriate message.
+8. Second Largest: Input three numbers and print the second-largest distinct number. If no distinct second-largest number exists, print an appropriate message.
 
-15. Calculator: Input two numbers and an operator (+, -, *, /, %). Perform the selected operation and handle division or modulo by zero.
+9. Calculator: Input two numbers and an operator (+, -, *, /, %). Perform the selected operation and handle division or modulo by zero.
 
-16. Admission Eligibility: Input marks in Physics, Chemistry and Mathematics. A student qualifies if:
+10. Admission Eligibility: Input marks in Physics, Chemistry and Mathematics. A student qualifies if:
     - Each subject has at least 40 marks.
     - Total marks are at least 150.
     - Mathematics marks are at least 50.
+
+
+
+
 
 ######################################### Topic 6 — Loops ##########################################
 The key question is: How does the variable change, and when does the loop stop?
@@ -563,7 +517,7 @@ Calculate the sum of integers from 1 to 10 using a loop.
 L5. Multiplication table
 Store num = 7 and print its multiplication table from 7 × 1 through 7 × 10.
 
-L6. Count digits
+L6. Count digits..........................
 Store num = 9258. Count its digits using repeated integer division by 10. Print the final digit count, not every intermediate counter value.
 
 L7. Reverse a number

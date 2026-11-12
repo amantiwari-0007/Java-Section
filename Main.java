@@ -378,32 +378,134 @@
 
 
 
- import java.util.Scanner;
+//  import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//        int num;
+    //    int x;
+    //    Scanner sc = new Scanner(System.in);
+    //      System.out.println("Enter your number");
+    //       num = sc.nextInt();
+
+//         sc = new Scanner(System.in);
+//          System.out.println("Enter your number");
+//           x = sc.nextInt();  
+//         if(num != 0 && x !=0){
+//             if(num%x > 0 || num%x < 0){
+//                 System.out.println("not divisible"); 
+//             }
+//             else{
+//                 System.out.println(" divisible");
+//             }
+//         }
+//         else{
+//             System.out.println("Please enter a valid Number");
+//         }
+//     }
+// }
+
+
+// In Java, the bitwise operators have a defined precedence:
+// &
+// ^
+// |
+
+
+// public class Main {
+//     public static void main(String[] args) {
+
+// int org = 9258;
+// int rev = 0;
+
+//  rev = rev + org%10*1000;
+//  org = org/10;
+
+//  rev = rev + org%10*100;
+//  org = org/10;
+
+//  rev =  rev + org%10*10;
+//  org = org/10;
+
+//  rev =  rev + org%10*1;
+//  org = org/10;
+
+//  int result = rev + org;
+//    System.out.println(result);
+//     }
+// }
+
+
+
+// // Switch statrement :- 
+
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+
+//         int a;
+//         int b;
+//         int choice;
+//         int result;
+//        Scanner sc = new Scanner(System.in);
+//          System.out.println("Enter number");
+//           a = sc.nextInt();
+
+//          System.out.println("Enter number");
+//           b = sc.nextInt();
+
+//          System.out.println("Enter number");
+//           choice = sc.nextInt();
+
+//      switch(choice){
+//         case 1:
+//              result = a + b; 
+//              break;
+//         case 2:
+//              result =  a - b;
+//              break;
+//         case 3: 
+//              result = a * b;
+//              break;
+//         case 4: 
+//              result = a / b;
+//              break;
+//         case 5:
+//               result = a % b;
+//               break;
+//         default: 
+//               result = a - b;
+//      }
+//     System.out.println(result);
+//     }
+// }
+
+
+
+
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       int num;
-       int x;
-       Scanner sc = new Scanner(System.in);
-         System.out.println("Enter your number");
-          num = sc.nextInt();
 
-        sc = new Scanner(System.in);
-         System.out.println("Enter your number");
-          x = sc.nextInt();  
-        if(num != 0 && x !=0){
-            if(num%x > 0 || num%x < 0){
-                System.out.println("not divisible"); 
-            }
-            else{
-                System.out.println(" divisible");
-            }
+        int number1, number2;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter count:");
+        number1 = sc.nextInt();
+
+        System.out.println("Enter count:");
+        number2 = sc.nextInt();
+
+        int gcd = 1;
+        for (int i = 0; i <= number1 && i <= number2; i++) {
+           if(number1 % 1 == 0 && number2 % 1 == 0){
+            gcd = i;
+           }
         }
-        else{
-            System.out.println("Please enter a valid Number");
-        }
+
+        System.out.println(gcd);
     }
 }
-
-
-

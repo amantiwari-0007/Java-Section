@@ -1,0 +1,91 @@
+/*
+1.
+
+
+
+
+
+
+13.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number");
+        int number = sc.nextInt();
+
+        int temporary = number;
+        int reverseNumber = 0;
+
+        while (temporary > 0) {
+            int lastDigit = temporary % 10;
+            reverseNumber = reverseNumber * 10 + lastDigit;
+            temporary = temporary / 10;
+        }
+
+        if (number == reverseNumber) {
+            System.out.println("It is a palindrome number");
+        } else {
+            System.out.println("It is not a palindrome number");
+        }
+    }
+}
+// Here we need another variable named temporary bec. we need the original value given by user as it is so we can not touch the number variable so we made another variable and do the exact same work.
+
+
+// my doubt ?? ==> when we assign int temporary = number so why there isnt any change in number variable.
+
+16.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int count;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter count:");
+        count = sc.nextInt();
+
+        int number;
+        int sum = 0;
+
+        for (int i = 0; i < count; i++) {
+            number = sc.nextInt();
+            sum = sum + number;
+        }
+
+        System.out.println(sum);
+    }
+}
+
+18.
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int number1, number2;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter count:");
+        number1 = sc.nextInt();
+
+        System.out.println("Enter count:");
+        number2 = sc.nextInt();
+
+        int gcd = 1;
+        for (int i = 0; i <= number1 && i <= number2; i++) {
+           if(number1 % 1 == 0 && number2 % 1 == 0){
+            gcd = i;
+           }
+        }
+
+        System.out.println(gcd);
+    }
+}
